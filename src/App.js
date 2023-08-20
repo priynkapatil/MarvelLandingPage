@@ -1,6 +1,7 @@
 import './App.css';
 import Accordions from './components/Accordions/Accordions';
 import Header from './components/Header/Header';
+import InfoCard from './components/InfoCard/InfoCard';
 import NavBar from './components/navbar/NavBar';
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
     <div className="App">
     <NavBar/>
     <Header/>
-    <Accordions/>
+    {/* <Accordions/> */}
+    <InfoCard/>
     </div>
   );
 }
